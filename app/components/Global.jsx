@@ -3,8 +3,11 @@ import React from 'react'
 
 const Global = () => {
     return (
-        <div className='w-full min-h-screen py-5 xl:py-10  px-10'>
-            <h1 className='text-5xl font-semibold xl:px-20 pb-20 px-10'>Global Presence</h1>
+        <div className='w-full min-h-screen py-5 xl:py-10  px-5'>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold px-5 sm:px-10 xl:px-20 pb-10 sm:pb-16 md:pb-20 text-center sm:text-left">
+  Global Presence
+</h1>
+
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 xl:flex xl:flex-row justify-center items-center xl:px-13 xl:gap-5 mt-10'>
                 <div className='w-full xl:w-1/3 mb-3 xl:mb-0'>
                     <div className='rounded-3xl h-80 mb-2'>
@@ -58,7 +61,7 @@ const Global = () => {
                 </div>
                 <div className='flex flex-row justify-center items-center gap-5'>
                     <Image src='/arrow.png' alt='' className='' width={50} height={100} loading='lazy' />
-                    <p className='text-sm'>Happy kids with Foodyoga products</p>
+                    <p className='text-sm pt-8'>Happy kids with Foodyoga products</p>
                 </div>
             </div>
 

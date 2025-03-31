@@ -4,8 +4,11 @@ import React from 'react'
 const Choose = () => {
   return (
    <section id='choose'>
-     <div className='md:px-20 px-10 w-full min-h-screen pt-30'>
-      <h1 className='text-5xl font-semibold'>Why choose FoodYoga?</h1>
+     <div className='md:px-20 px-5 w-full min-h-screen pt-30'>
+     <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold  sm:text-left">
+  Why choose FoodYoga?
+</h1>
+
       <h2 className='text-lg py-5'>Our competitive edge lies in:</h2>
 
       <div className='grid md:grid-cols-2 gap-5 w-full'>

@@ -5,8 +5,11 @@ import Image from "next/image";
 const Partners = () => {
     return (
        <section id="testimonials">
-         <div className="w-screen min-h-screen md:px-20 py-20 px-10">
-            <h1 className="text-5xl font-bold mb-20 px-10">Our Global Partners</h1>
+         <div className="w-screen min-h-screen md:px-20 py-20 px-5">
+         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 sm:mb-16 md:mb-20 px-5 sm:px-10 text-center sm:text-left">
+  Our Global Partners
+</h1>
+
 
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:px-10">
                 {["akasa.png", "indigo.png", "compass.png", "spicejet.jpg", "itc.png"].map((img, index) => (

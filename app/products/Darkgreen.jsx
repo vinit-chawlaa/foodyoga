@@ -8,11 +8,15 @@ const Darkgreen = () => {
   return (
     <div>
         
-<div className='flex lg:flex-row justify-center items-center flex-col md:gap-10 w-full mt-5'>
-<h1 className='text-4xl absolute z-3 top-5 w-full'>
- <span className='font-bold'>Chickpea</span> Dill Pickle Flavour
-</h1>
-<div className='flex-1 relative -mt-20'>
+<div className='flex lg:flex-row justify-center items-center flex-col md:gap-10 w-full mt-5 px-2'>
+<h1 className="text-2xl sm:text-3xl md:text-4xl font-bold absolute top-5 z-3 mt-5 sm:mt-0">
+<span className='font-bold'>Chickpea</span> Dill Pickle Flavour
+       </h1>
+
+      
+
+
+<div className='flex-1 relative -mt-30'>
  <Image src='/darkgreen.png' width={1000} height={1000} alt='' loading='lazy' className='w-full min-h-200 object-cover' />
  <div className='flex gap-5 flex-col absolute bottom-10 px-20 justify-center w-full'>
    <div className='text-xl text-gray-800 flex justify-center items-center gap-5 '>
@@ -47,7 +51,7 @@ const Darkgreen = () => {
  </div>
 </div>
 
-<div className='flex-1 lg:min-w-[400px] mt-10 px-10 sm:w-full w-[400px] 2xl:mr-20'>
+<div className='flex-1 lg:min-w-[400px] mt-10 px-2 sm:w-full w-[400px] 2xl:mr-25'>
  <div className='bg-gray-100 h-[500px] flex flex-col border border-gray-100 rounded-3xl'>
    <div className='flex h-[25%] w-full'>
      <div className='flex-1 border border-gray-300 rounded-tl-3xl flex justify-center items-center flex-col gap-5'>
