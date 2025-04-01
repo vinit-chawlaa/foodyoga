@@ -8,6 +8,9 @@ import Carousels from "./components/Carousels";
 import Partners from "./components/Partners";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+
+
 
 export default function Home() {
   return (
@@ -20,6 +23,7 @@ export default function Home() {
       <Carousels/>
       <Partners/>
       <Global/>
+      <Contact/>
       <Footer/>
     </div>
   );

@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row items-center gap-5 md:gap-0 w-full'>
 
                 <div className='flex flex-col gap-3 w-full md:w-1/4 px-2'>
-                    <strong className='text-2xl md:text-4xl'>सेवा परम धर्म</strong>
+                    <strong className='text-2xl md:text-4xl'>सेवा परमो धर्म</strong>
                     <p className='font-semibold text-md md:text-lg'>Seva Parmo Dharma</p>
                     <p className='text-gray-700 text-sm md:text-md'>Service to humanity is the highest religion.</p>
                 </div>

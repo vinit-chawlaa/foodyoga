@@ -5,8 +5,11 @@ const Hero = () => {
   return (
 
     <div className='relative w-full min-h-screen overflow-hidden pt-[80px]'>
-        <div className='absolute z-1 top-30 left-10'>
-            <h1 className='font-bold text-5xl md:px-15 px-10'>Balance in Every Bite!</h1>
+        <div className='absolute z-1 top-20 left-10'>
+        <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-6 sm:px-10 md:px-14'>
+  Balance in Every Bite!
+</h1>
+
         </div>
        
         

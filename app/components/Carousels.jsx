@@ -2,15 +2,15 @@
 
 
 import React from 'react'
-import dynamic from "next/dynamic";
 import "react-multi-carousel/lib/styles.css";
 import Green from '../products/Green';
 import Brown from '../products/Brown';
 import Orange from '../products/Orange';
 import Darkgreen from '../products/Darkgreen';
 import Pink from '../products/Pink';
+import Carousel from 'react-multi-carousel';
 
-const Carousel = dynamic(() => import("react-multi-carousel"), { ssr: false });
+
 
 const responsive = {
   superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 1 },
@@ -28,7 +28,8 @@ const Carousels = () => {
         <Carousel responsive={responsive} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} arrows={true}>
 
 
-          <Pink />
+        
+         <Pink />
           <Green />
 
           <Brown />
@@ -38,7 +39,7 @@ const Carousels = () => {
 
 
           <Darkgreen />
-
+        
 
 
 
