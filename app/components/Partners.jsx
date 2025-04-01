@@ -16,7 +16,7 @@ const Partners = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 sm:mb-16 md:mb-20 px-5 sm:px-10 ">Our Customers Love Us</h1>
            
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-6 md:grid-cols-3 py-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 sm:gap-6 md:grid-cols-2 py-4 xl:grid-cols-4">
                 {[
                     {
                         text: "Incredibly addictive and delicious! My first time trying puffed waterlily seeds and I'm hooked. The pickle flavor is outstanding. The package is generously filled, offering great value for the price. Can't wait to try more flavors!",

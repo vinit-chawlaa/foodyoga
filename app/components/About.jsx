@@ -4,7 +4,7 @@ import React from 'react'
 const About = () => {
     return (
      <section id='about' className='pt-10'>
-           <div className='w-full min-h-screen px-5 md:px-20 mt-30 grid grid-cols-1 gap-15 md:grid-cols-[35%_auto] overflow-x-hidden relative z-50'>
+           <div className='w-full px-5 md:px-20 mt-30 grid grid-cols-1 gap-15 md:grid-cols-[35%_auto] overflow-x-hidden relative z-50'>
             <div>
                 <h1 className='text-5xl'>About us</h1>
                 <span className="line1"></span>

@@ -22,7 +22,7 @@ const responsive = {
 const Carousels = () => {
   return (
     <section id='products'>
-      <div className='w-full min-h-screen sm:px-20 pt-20 px-5'>
+      <div className='w-full  sm:px-20 pt-20 px-5'>
 
 
         <Carousel responsive={responsive} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} arrows={true}>
