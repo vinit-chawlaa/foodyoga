@@ -50,6 +50,7 @@ const Contact = () => {
                   src={company.image} 
                   alt={company.name} 
                   fill
+                  loading="eager"
                   className="object-contain"
                 />
               </div>

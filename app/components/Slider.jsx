@@ -62,13 +62,13 @@ const Slider = () => {
               <div className="flex justify-center items-center w-full">
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-20 sm:px-12 md:px-16 lg:px-24 gap-4 md:gap-8 lg:gap-12 mx-auto max-w-4xl">
                       {["luthansa.png", "oberio.png", 'skychefs.png'].map((img, index) => (
-                          <div key={index} className="min-w-[120px] sm:min-w-[150px] md:min-w-[180px] h-20 sm:h-24 md:h-28 flex justify-center items-center p-2">
+                          <div key={index} className="mt-5 md:mt-0 md:h-24 flex justify-center items-center p-2">
                               <Image 
                                 src={`/${img}`} 
                                 alt={img.split('.')[0]} 
                                 className="w-full h-full object-contain" 
-                                width={250} 
-                                height={120} 
+                                width={100} 
+                                height={100} 
                                 loading="lazy" 
                               />
                           </div>

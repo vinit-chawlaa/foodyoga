@@ -42,11 +42,11 @@ const Navbar = () => {
                 <Image src='/logo.png' width={100} height={100} alt='' className='rounded-3xl' loading='lazy' />
             </div>
 
-            <ul className={`${toggle ? 'flex absolute bg-white  top-[60px] text-center flex-col w-full left-0 right-0 shadow-lg z-[999]' : 'hidden'} list-none gap-5 md:flex`}>
+            <ul className={`${toggle ? 'flex absolute bg-white  top-[60px] text-center flex-col w-full left-0 right-0 shadow-lg z-[999]' : 'hidden'} list-none md:flex`}>
                 {Navlinks.map((item) => (
                     <Link href={item.url} className='animated-underline block px-4 py-2' key={item.id}>
                     <li 
-                        className={`cursor-pointer ${toggle && activeLink === item.id ? 'bg-gray-200' : ''} py-5 md:py-0`}
+                        className={`cursor-pointer ${toggle && activeLink === item.id ? 'bg-gray-200' : ''} py-3 md:py-0`}
                         onClick={() => setActiveLink(item.id)}
                     >
                         

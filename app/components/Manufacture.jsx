@@ -41,18 +41,23 @@ const Manufacture = () => {
                     </div>
                 </div>
 
-                <Image src='/factory.webp' alt='' width={1500} height={100} className='min-h-[800px] mt-20 rounded-3xl object-cover' loading='lazy' />
+                <Image
+                    src='/factory.webp'
+                    alt=''
+                    width={1500}
+                    height={100}
+                    className='min-h-[800px] mt-20 rounded-3xl object-cover'
+                    loading='eager'
+                />
             </div>
 
             <div className="py-10 flex flex-col md:flex-row gap-8 md:gap-5 items-center md:items-start">
-
                 <div className="md:border-r-2 md:border-gray-400 max-w-[350px] px-5 text-center md:text-left">
                     <h1 className="text-2xl sm:text-3xl">
                         Production Capacity of <br />
                         <span className="font-bold">2,000 tons per year.</span>
                     </h1>
                 </div>
-
 
                 <div className="max-w-[540px] px-5 text-center md:text-left pt-5">
                     <p className="font-semibold text-lg sm:text-xl">
@@ -61,7 +66,6 @@ const Manufacture = () => {
                     </p>
                 </div>
             </div>
-
         </div>
     )
 }

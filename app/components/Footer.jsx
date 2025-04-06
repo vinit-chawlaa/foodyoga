@@ -40,7 +40,7 @@ const Footer = () => {
                         width={150} 
                         height={75} 
                         className='rounded-3xl w-[150px] h-auto' 
-                        loading='lazy'
+                        loading='eager'
                     />
                 </div>
 
@@ -61,6 +61,7 @@ const Footer = () => {
                         height={30} 
                         alt='Phone icon' 
                         className='w-6 h-6 md:w-8 md:h-8'
+                        loading='eager'
                     />
                     <a href="tel:+14699314116" className='text-sm md:text-lg'>+1 469 931 4116</a>
                 </p>
@@ -71,6 +72,7 @@ const Footer = () => {
                         height={30} 
                         alt='Email icon' 
                         className='w-6 h-6 md:w-8 md:h-8'
+                        loading='eager'
                     />
                     <a href="mailto:dhawal@foodyoga.shop" className='text-sm md:text-lg'>dhawal@foodyoga.shop</a>
                 </p>
@@ -81,6 +83,7 @@ const Footer = () => {
                         height={30} 
                         alt='Website icon' 
                         className='w-6 h-6 md:w-8 md:h-8'
+                        loading='eager'
                     />
                     <a href="https://foodyoga.shop/" target="_blank" rel="noopener noreferrer" className='text-sm md:text-lg'>www.foodyoga.shop</a>
                 </p>
@@ -94,6 +97,7 @@ const Footer = () => {
                         height={30} 
                         alt='Location icon' 
                         className='w-6 h-6 md:w-8 md:h-8'
+                        loading='eager'
                     />
                     <address className='not-italic text-sm md:text-lg lg:text-xl'>
                         Foodyoga INC., 1025 36th Ave NE, Minneapolis, MN 55418

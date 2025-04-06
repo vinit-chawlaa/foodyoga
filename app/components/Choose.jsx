@@ -17,13 +17,13 @@ const Choose = () => {
             <div className='absolute max-w-[90%] px-10 py-5 border-r rounded-tr-3xl bottom-0 bg-gray-100 opacity-90 flex justify-center items-center font-semibold text-lg text-center break-words'>
               <p>Authentic, yogic-inspired recipes.</p>
             </div>
-            <Image src='/bowl.jpg' alt='Bowl of food' width={1000} height={100} className='object-cover w-full h-full' loading="lazy" />
+            <Image src='/bowl.jpg' alt='Bowl of food' width={1000} height={100} className='object-cover w-full h-full' loading="eager" />
           </div>
           <div className='h-[400px] rounded-md overflow-hidden my-5 relative'>
             <div className='absolute border-r py-5 rounded-tr-3xl bottom-0 bg-gray-100 opacity-90 flex justify-center items-center font-semibold text-lg max-w-[90%] px-10 break-words'>
               <p>Commitment to sustainability through regenerative farming practices.</p>
             </div>
-            <Image src='/vegetable.jpg' alt='Vegetables' width={1000} height={100} className='object-cover h-full' loading="lazy" />
+            <Image src='/vegetable.jpg' alt='Vegetables' width={1000} height={100} className='object-cover h-full' loading="eager" />
           </div>
         </div>
         <div className='flex flex-col gap-5'>
@@ -31,13 +31,13 @@ const Choose = () => {
             <div className='absolute max-w-[90%] py-5 border-r rounded-tr-3xl bottom-0 bg-gray-100 opacity-90 px-10 flex justify-center items-center font-semibold text-lg break-words'>
               <p>Nutrient-rich ingredients like Ashwagandha and probiotics.</p>
             </div>
-            <Image src='/aswa.jpg' alt='Ashwagandha' width={1000} height={100} className='object-cover h-full' loading="lazy" />
+            <Image src='/aswa.jpg' alt='Ashwagandha' width={1000} height={100} className='object-cover h-full' loading="eager" />
           </div>
           <div className='h-[400px] rounded-md overflow-hidden relative'>
             <div className='absolute max-w-[90%] py-5 border-r rounded-tr-3xl bottom-0 bg-gray-100 opacity-90 px-10 flex items-center font-semibold text-lg break-words'>
               <p>Consistent quality ensured through our state-of-the-art manufacturing facility.</p>
             </div>
-            <Image src='/food.jpg' alt='Manufacturing facility' width={1000} height={100} className='object-cover h-full' loading="lazy" />
+            <Image src='/food.jpg' alt='Manufacturing facility' width={1000} height={100} className='object-cover h-full' loading="eager" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
-     <section id='about' className='pt-10'>
+     <section id='about'>
            <div className='w-full px-5 md:px-20 mt-30 grid grid-cols-1 gap-15 md:grid-cols-[35%_auto] overflow-x-hidden relative z-50'>
             <div>
                 <h1 className='text-5xl'>About us</h1>
@@ -18,14 +18,14 @@ const About = () => {
                     health-conscious individuals who seek balanced nutrition without compromising on taste.
                 </p>
                 <div className='max-w-[800px] rounded-lg overflow-hidden relative py-5'>
-                    <Image src='/man.png' alt='Person practicing yoga' width={800} height={400} className='rounded-lg object-cover' loading="lazy" />
+                    <Image src='/man.png' alt='Person practicing yoga' width={800} height={400} className='rounded-lg object-cover' loading="eager"/>
                 </div>
             </div>
 
             <div className='flex md:flex-col flex-col-reverse gap-5'>
 
                 <div className='max-w-[900px] rounded-lg overflow-hidden relative'>
-                    <Image src='/yoga.png' alt='Yoga practice' width={900} height={500} className='rounded-lg' loading="lazy" />
+                    <Image src='/yoga.png' alt='Yoga practice' width={900} height={500} className='rounded-lg' loading="eager" />
                 </div>
 
                 <div>
