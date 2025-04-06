@@ -39,7 +39,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center shadow-sm py-4 z-[1000] sticky top-0 left-0 w-full bg-white lg:px-24 px-10'>
             <div>
-                <Image src='/logo.png' width={100} height={100} alt='' className='rounded-3xl' loading='lazy' />
+                <Image src='/logo.png' width={100} height={100} alt='' className='rounded-3xl' loading='eager' />
             </div>
 
             <ul className={`${toggle ? 'flex absolute bg-white  top-[60px] text-center flex-col w-full left-0 right-0 shadow-lg z-[999]' : 'hidden'} list-none md:flex`}>
