@@ -4,7 +4,10 @@ import React from 'react'
 const Manufacture = () => {
     return (
         <div className='w-full min-h-screen px-5 md:px-20 pt-20'>
-            <h1 className='font-semibold text-5xl'>State-of-the-art Manufacturing Facility</h1>
+<h1 className="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl sm:text-left text-center">
+  State-of-the-art Manufacturing Facility
+</h1>
+
             <div className='relative min-h-[500px]'>
                 <div className='bg-gray-200 opacity-90 xl:max-w-[50%] rounded-tr-3xl md:rounded-tr-none md:rounded-br-3xl md:rounded-tl-3xl xl:h-35 py-5 px-5 top-0 left-0 absolute flex justify-center items-center gap-5 flex-wrap'>
                     <div>

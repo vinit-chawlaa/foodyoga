@@ -29,8 +29,8 @@ export const Navlinks = [
 
     {
         id : 5,
-        name : 'Testimonials',
-        url : '#testimonials'
+        name : 'Contact',
+        url : '#contact'
     },
 
 

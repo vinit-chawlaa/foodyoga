@@ -38,7 +38,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="w-full py-16">
+    <section  className="w-full py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 py-4">Our Global Distribution Partners</h2>
         

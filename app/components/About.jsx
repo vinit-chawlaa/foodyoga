@@ -6,7 +6,7 @@ const About = () => {
      <section id='about'>
            <div className='w-full px-5 md:px-20 mt-30 grid grid-cols-1 gap-15 md:grid-cols-[35%_auto] overflow-x-hidden relative z-50'>
             <div>
-                <h1 className='text-5xl'>About us</h1>
+                <h1 className='text-3xl lg:text-5xl md:text-4xl'>About us</h1>
                 <span className="line1"></span>
                
                 <p className='py-4 pt-10 font-semibold'>
@@ -29,7 +29,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h1 className='py-5 text-5xl'>Our Story</h1>
+                    <h1 className='py-5 text-3xl lg:text-5xl md:text-4xl'>Our Story</h1>
                     <span className="line2"></span>
                     <p className='py-4 font-semibold'>
                         While the science of Yoga is widely understood and accepted by millions across the globe,

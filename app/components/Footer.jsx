@@ -3,7 +3,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-       <div className='px-5 md:px-10 py-10 bg-gray-50'>
+      <section id='contact'>
+         <div className='px-5 md:px-10 py-10 bg-gray-50 pt-20'>
          <div className='w-full min-h-[40vh] md:min-h-[60vh] flex flex-col text-center'>
             <div className='flex flex-col md:flex-row items-center gap-5 md:gap-0 w-full'>
 
@@ -53,7 +54,7 @@ const Footer = () => {
                 <p className='pt-3 md:pt-10 font-semibold text-lg md:text-2xl'>POC- Dhawal Phadke</p>
             </div>
 
-            <div className='flex flex-col md:flex-row py-5 md:py-10 gap-5 text-md md:text-2xl'>
+            <div className='flex flex-col md:flex-row py-5 md:py-10 gap-10 text-md md:text-2xl'>
                 <p className='flex justify-center md:justify-start items-center gap-2'>
                     <Image 
                         src='/phone.png' 
@@ -89,31 +90,30 @@ const Footer = () => {
                 </p>
             </div>
 
-            <div className='flex flex-col md:flex-row gap-5 w-full items-center'>
+            <div className='flex flex-col md:flex-row gap-5 w-full items-center justify-center'>
                 <div className='w-full text-center md:text-left flex flex-col md:flex-row gap-2 md:gap-4 items-center'>
                     <Image 
-                        src='/location.png' 
+                        src='/location.png'
                         width={30} 
                         height={30} 
                         alt='Location icon' 
                         className='w-6 h-6 md:w-8 md:h-8'
                         loading='eager'
                     />
-                    <address className='not-italic text-sm md:text-lg lg:text-xl'>
+                    <address className='not-italic text-sm md:text-[16px] lg:text-lg'>
                         Foodyoga INC., 1025 36th Ave NE, Minneapolis, MN 55418
                     </address>
                 </div>
-                <div className='hidden md:block flex-1'>
-                    <span className='h-[1px] w-full bg-gray-300'></span>
-                </div>
-                <div className='w-full text-center md:text-right flex justify-center'>
-                    <p className='text-sm md:text-lg lg:text-xl max-w-[250px]'>
+               
+                <div className='md:text-right'>
+                    <p className='text-sm md:text-[16px] lg:text-lg'>
                         We Look Forward To <span className='font-bold'>Getting You On-Board</span>
                     </p>
                 </div>
             </div>
         </div>
        </div>
+      </section>
     );
 }
 

@@ -27,7 +27,7 @@ const Carousels = () => {
 
         <Carousel responsive={responsive} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} arrows={true}>
 
-
+ 
         
          <Pink />
           <Green />

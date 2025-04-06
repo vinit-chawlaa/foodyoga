@@ -5,7 +5,7 @@ import Slider from "./Slider";
 
 const Partners = () => {
     return (
-       <section id="testimonials">
+       <section>
          <div className="w-full  md:px-20 py-20 px-5">
          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 sm:mb-16 md:mb-20 px-5 sm:px-10 text-center sm:text-left">
   Our Global Partners
